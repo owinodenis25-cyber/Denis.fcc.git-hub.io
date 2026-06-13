@@ -1,63 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dennis Cafe Menu</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="menu">
-      <main>
-        <h1>A DOLAR CAMPER CAFE</h1>
-        <p class="established">Est. 2020</p>
-        <hr>
-        <section>
-          <h2>Coffee</h2>
-          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
-          <article class="item">
-            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Mocha</p><p class="price">4.50</p>
-          </article>
-        </section>
-        <section>
-          <h2>Desserts</h2>
-          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
-          <article class="item">
-            <p class="dessert">Donut</p><p class="price">1.50</p>
-          </article>
-          <article class="item">
-            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
-          </article>
-          <article class="item">
-            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
-          </article>
-          <article class="item">
-            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
-          </article>
-        </section>
-      </main>
-      <hr class="bottom-line">
-      <footer>
-        <address>
-          <p>
-            <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
-          </p>
-          <p class="address">123 Free Code Camp Drive</p>
-        </address>
-      </footer>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greeting Card</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="card" id="greeting-card">
+      <h1>Happy Birthday!</h1>
+      <p class="message">
+        Wishing you all the happiness and joy on your special day!
+      </p>
+      <div class="card-links">
+        <a href="#send" class="send-link">Send Card</a>
+        <a href="#share" class="share-link">Share on Social Media</a>
+      </div>
     </div>
-  </div>
-</body>
+    <section id="send">
+      <h2>Sending Your...</h2>
+      <p>Card successfully sent to your recipient!</p>
+    </section>
+    <section>
+      <h1>Sharing your card...</h1>
+      <p>Your card was shared on social</p>
+    </section>
+  </body>
 </html>

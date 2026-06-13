@@ -1,103 +1,71 @@
 body {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-  font-family: sans-serif;
-  padding: 20px;
-}
-
-h1 {
-  font-size: 50px;
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-.established {
-  font-style: italic;
-}
-
-h1,
-h2,
-p {
+  font-family: Arial, sans-serif;
+  padding: 40%;
   text-align: center;
-}
-
-.menu {
-  width: 80%;
-  background-color: purple;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  max-width: 500px;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-hr {
-  height: 2px;
   background-color: brown;
-  border-color: brown;
 }
-
-.bottom-line {
-  margin-top: 25px;
+.card {
+  background-color: white;
+  max-width: 400px;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px;
+  transition:
+    transform 0.3s,
+    background-color 0.3s ease;
 }
-
-h1,
-h2 {
-  font-family: Impact, serif;
+.card:hover {
+  background-color: khaki;
+  transform: scale(1.1);
 }
-
-.item p {
-  display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 18px;
+h1::before {
+  content: "🥳 ";
 }
-
-.flavor,
-.dessert {
-  text-align: left;
-  width: 75%;
+h1::after {
+  content: "🥳 ";
 }
-
-.price {
-  text-align: right;
-  width: 25%;
+.message {
+  font-size: 1.2em;
+  margin-bottom: 20px;
 }
-
-/* FOOTER */
-
-footer {
-  font-size: 14px;
+.card-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
 }
-
-address {
-  font-style: normal;
+.card-links a {
+  text-decoration: none;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: midnightblue;
+  transition: background-color 0.3s ease;
 }
-
-.address {
-  margin-bottom: 5px;
+.card-links a:hover {
+  background-color: orangered;
 }
-
-a {
-  color: black;
+.card-links a:active {
+  background-color: midnightblue;
 }
-
-a:visited {
-  color: black;
+.card-links a:focus {
+  outline: 2px solid yellow;
 }
-
-a:hover {
-  color: brown;
+.card-links a:visited {
+  color: crimson;
 }
-
-a:active {
-  color: brown;
+section {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  display: none;
+}
+section:hover {
+  transform: skewX(10deg);
+}
+section:target {
+  display: block;
 }
