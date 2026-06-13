@@ -5,13 +5,13 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 15px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .established {
@@ -21,12 +21,12 @@ h2 {
 h1,
 h2,
 p {
-  text-align: center;
+  text-align: left;
 }
 
 .menu {
   width: 80%;
-  background-color: burlywood;
+  background-color: orange;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
